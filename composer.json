@@ -1,0 +1,39 @@
+{
+	"name": "jrcomposer/common",
+	"description": "Finance functions/methods Libs: alarm,sms,mail,log,others",
+	"type": "library",
+	"require": {
+		"php": ">=7.1.0",
+		"guzzlehttp/guzzle": "^6.3",
+		"illuminate/config": "5.5.*"
+	},
+	"require-dev": {
+		
+	},
+	"authors": [
+		{
+			"name": "duxin",
+			"email": "duxin7@xin.com",
+			"homepage": "https://git.xin.com/duxin7",
+			"role": "Maintainer"
+		}
+	],
+	"minimum-stability": "stable",
+	"homepage": "https://git.xin.com/jrcomposer/common",
+	"license": "https://git.xin.com/jrcomposer/common/wikis/license",
+	"keywords": [
+		"alarm",
+		"sms",
+		"email",
+		"log",
+		"queue"
+	],
+	"autoload": {
+		"psr-4": {
+			"Jrcomposer\\Common\\" : "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	}
+}
