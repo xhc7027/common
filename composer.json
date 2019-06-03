@@ -35,5 +35,8 @@
 		"files": [
 			"src/helpers.php"
 		]
+	},
+	"config": {
+		"notify-on-install": true
 	}
 }
