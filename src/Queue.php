@@ -11,4 +11,9 @@ class Queue{
     public function consumer(){
         return "consumer";
     }
+    
+    public function test(){
+        Request::delete();
+        Request::put();
+    }
 }
